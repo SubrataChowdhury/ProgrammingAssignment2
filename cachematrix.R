@@ -4,6 +4,11 @@
 ## Write a short comment describing this function
 ## makeCacheMatrix is to create a matrix and make the value available in cache
 ## It also creates the matrix inverse and make the same available in cache
+## 1. set the value of the matrix 
+## 2. get the value of the matrix 
+## 3. set the value of inverse of the matrix 
+## 4. get the value of inverse of the matrix 
+
 makeCacheMatrix <- function(x = matrix()) {
   # stores the cached value
   # initialize to NULL
